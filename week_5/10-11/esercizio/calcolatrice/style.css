@@ -1,0 +1,19 @@
+.modal{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+border: 1px solid;
+border-radius: 20px;
+
+height: 400px;
+width: 400px;
+padding: 20px
+}
+
+#operator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}

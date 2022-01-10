@@ -1,0 +1,69 @@
+
+//    popola la lista di amici in automatico in base alla lenght della lista
+const fillFriend = () => {
+    let val = 0;
+    const friendList = [];
+    const friendName = [
+        "Jacob",
+        "Michael",
+        "Ethan",
+        "Joshua",
+        "Daniel",
+        "Alexander",
+        "Anthony",
+        "William",
+        "Christopher",
+        "Matthew",
+        "Jayden",
+        "Andrew",
+        "Joseph",
+        "David",
+        "Noah",
+        "Aiden",
+        "James",
+        "Ryan",
+        "Logan",
+        "John",
+        "Nathan",
+        "Elijah",
+        "Christian",
+        "Gabriel",
+        "Benjamin",
+        "Jonathan",
+        "Tyler",
+        "Samuel",
+        "Nicholas",
+        "Gavin",
+        "Dylan",
+        "Jackson",
+        "Brandon",
+        "Caleb",
+        "Mason",
+        "Angel",
+        "Isaac",
+        "Evan",
+        "Jack",
+        "Kevin",
+        "Jose",
+        "Isaiah",
+        "Luke",
+        "Landon",
+        "Justin",
+        "Lucas",
+        "Zachary",
+        "Jordan",
+        "Robert",
+        "Aaron",
+        "Brayden",
+    ];
+    for (val in [...Array(50).keys()]) {
+        friendList.push({
+            name: friendName[val],
+            photo: `https://randomuser.me/api/portraits/men/${val}.jpg`
+        })
+    };
+
+    setTimeout(() => { }, 100);
+
+    httpPost('/friends')
+}

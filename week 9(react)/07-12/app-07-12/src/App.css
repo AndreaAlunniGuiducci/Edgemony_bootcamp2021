@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-body {
+  background-color: rgb(101, 138, 106);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Subtitle {
+  font-size:30px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+.App p{
+  margin: 5px 0 10px 0;
+}
+
+.App-head{
+display: flex;
+flex-direction: column;
+}
+
+.App-img{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  border-radius:100%;
+}
+
+.App-Name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.App-center{
+  display: flex;
+  flex-direction: row;
+}
+
+.App-Contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20% 20px 20%;
+}

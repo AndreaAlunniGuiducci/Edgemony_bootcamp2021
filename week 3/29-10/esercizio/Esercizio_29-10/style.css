@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* bottoni */
+button{
+    padding: 5px;
+    border: solid 1px 'red';
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: cyan;
+    background: cornflowerblue;
+    color: cornsilk;
+    margin: 15px 15px 0 15px;
+}
+
+/* titolo */
+h1, h2{
+    color: darkgreen;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.titwrap{
+    display: flex;
+    text-align: center;
+}
+
+/* sottotitolo */
+.subtitWrap{
+    margin-left: 15px;
+}
+h2{
+    color: green;
+}
+#subParagraph{
+    display: inline;
+}
+#sub{
+    border: solid 1px green;
+    padding: 3px;
+    color: green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* lista */
+ul li{
+    margin-left: 30px;
+    padding: 5px;
+    color: rgb(38, 161, 26);
+    font-size: 20px;
+}

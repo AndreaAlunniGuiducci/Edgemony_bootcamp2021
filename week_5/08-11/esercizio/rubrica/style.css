@@ -1,0 +1,93 @@
+main{
+    width: 80%;
+    margin: 50px auto 80px;
+    font-family: sans-serif;
+}
+
+.modal, .badModal{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+
+    border: 1px solid rgb(82, 73, 73);
+    background: rgb(255, 238, 0);
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+    box-shadow: 0 0 16px black;
+    color: rgb(0, 0, 0);
+    
+    position: absolute;
+    top: 100px;
+    left: 80px;
+
+    transition: opacity 0.5s;
+}
+
+.badModal{
+    display: none;
+}
+
+.modal__buttons{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.modal button{
+    padding: 5px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    color: cornsilk;
+    margin-left: 10px;
+}
+
+#accept{
+    background: rgb(60, 177, 49);
+}
+
+#deny{
+    background: rgb(210, 30, 30);
+}
+
+#solarH3{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#italia{
+    display: block;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+form input,
+form button{
+    line-height: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+ul li{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 3px 0;
+}

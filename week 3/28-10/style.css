@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: chartreuse;
+}
+
+.wrapper{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background: cornflowerblue;
+}

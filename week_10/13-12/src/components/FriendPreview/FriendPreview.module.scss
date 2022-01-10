@@ -1,0 +1,22 @@
+@import './../../libs/variables.scss';
+
+
+.friend{
+    $size: 70px;
+
+    border: 1px solid $lightGray;
+    display:flex;
+
+    img{
+        width: $size;
+        height: $size;
+
+        border-radius: 50%;
+    }
+
+    p{
+        line-height: $size;
+        margin: 0;
+        margin-left: 10px;
+    }
+}

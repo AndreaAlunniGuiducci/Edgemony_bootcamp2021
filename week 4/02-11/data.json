@@ -1,0 +1,13 @@
+{
+    "title": "fight club",
+    "year": 1999,
+    "cast": [
+        "brad pitt",
+        "Jodie Comer"
+    ],
+    "details": {
+        "cameos": true,
+        "isFunny": true,
+        "realistic": false
+    }
+}

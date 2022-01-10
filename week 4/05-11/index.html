@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista Contatti</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>Lista contatti in Javascript</h1>
+        </header>
+
+        <form id="addContact">
+            <label for="name">Nome e Cognome</label>
+            <input type="text" name="name" id="name" required autocomplete="off">
+
+            <label for="phone">Numero di telefono</label>
+            <input type="number" name="phone" id="phone" required autocomplete="off">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required autocomplete="off">
+
+            <button type="submit">Crea contatto</button>
+        </form>
+        <form id="formSearch">
+            <label for="search">Cerca tra i contatti</label>
+            <input type="text" name="search" placeholder="es: Pippo" autocomplete="off">
+            <button type="submit">Cerca</button>
+        </form>
+
+        <ul>
+            <!-- <li>
+                <h3>Rick Sancehz</h3>
+                <p><strong>Phone:</strong><a href="tel:+39 12345678">+39 12345678</a></p>
+                <p><strong>E-mail:</strong><a href="mailto:rick@sanchez.com">Rick@Sanchez.com</a></p>
+            </li>-->
+        </ul>
+
+    </main>
+
+    <script type='module' src="index.js"></script>
+</body>
+
+</html>

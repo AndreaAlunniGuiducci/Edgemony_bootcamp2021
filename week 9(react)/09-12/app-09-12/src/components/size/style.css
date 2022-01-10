@@ -1,0 +1,9 @@
+.size__dot{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background: lightgrey;    
+}

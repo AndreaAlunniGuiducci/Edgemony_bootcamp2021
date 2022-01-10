@@ -1,0 +1,12 @@
+.btn{
+    background: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Button{
+    margin-top: 20px;
+}

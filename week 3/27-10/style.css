@@ -1,0 +1,93 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(80, 187, 223);
+}
+
+/*heading*/
+h1{
+    display: inline;
+}
+
+.heading{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/*competenze-hobby*/
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    padding-bottom: 20px;
+}
+
+ul{
+    padding-bottom: 20px;
+}
+
+.competence, .hobby, .enlight{
+    padding: 120px 0 0 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.hobby, .enlight{
+    padding-top:0;
+
+}
+
+.enlight{
+    background: yellow;
+}
+
+/*dark mode*/
+.darkMode{
+    background: rgb(81, 95, 109);
+    color: rgb(80, 187, 223)
+}
+
+.darkHeadMode{
+    background: darkblue;
+    color: cadetblue;
+}
+
+/*immagine nascosta*/
+.hideBtn{
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    background: cadetblue;
+    color:darkblue;
+    margin: auto;
+}
+
+.hide{
+    display: none;
+}
+
+.visible{
+    display: block;
+    margin: auto;
+    border: 5px;
+    border-style: outset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px black;
+}
