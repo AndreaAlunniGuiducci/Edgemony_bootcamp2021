@@ -1,11 +1,15 @@
 
 .carousel{
+    margin: 0 auto;
+    width: 1000px;
     overflow:hidden;
     scroll-behavior: smooth;
+
 }
 
 .wrapper{
     display: flex;
+    width: 1500px;
 }
 
 .wrapper img{
