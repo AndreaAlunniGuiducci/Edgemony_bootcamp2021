@@ -1,0 +1,25 @@
+
+.carousel{
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper img{
+    margin:5px;
+}
+
+.leftBtn, .rightBtn{
+    margin: 10px;
+}
+
+.leftBtn{
+    transform: rotate(90deg);
+}
+
+.rightBtn{
+    transform: rotate(270deg);
+}
