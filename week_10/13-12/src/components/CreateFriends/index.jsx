@@ -49,7 +49,7 @@ const CreateFriend = () => {
                 <button type='submit' onClick={handleBtn}>SEND</button>
 
             </form>
-        </div >
+        </div>
     )
 }
 

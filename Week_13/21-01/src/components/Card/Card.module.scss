@@ -1,0 +1,14 @@
+@use "./../../lib/style/" as *;
+
+.cardContainer{
+    @include flex(column);
+
+    width: 300px;
+    height: 500px;
+
+    background: $primary;
+
+    p{
+        color: $secondary;
+    }
+}
